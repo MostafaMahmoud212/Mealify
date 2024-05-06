@@ -1,0 +1,274 @@
+/* small */
+@media screen and (max-width: 640px) {
+    .container .nav-links {
+        display: none;
+    }
+    .container .icons1 .i-2-2 {
+        display: block;
+    }
+
+    .heder .right-heder img {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 640px) {
+
+    .heder .lift-heder .bottons {
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row !important;
+    }
+
+    footer .duscription .about-me {
+        width: 120%;
+    }
+    footer .duscription .div-2 {
+        flex-direction: row;
+    }
+    footer .container-1 {
+        padding: 20px 10% ;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .heder .right-heder img{
+        width: 80%;
+    }
+
+    .chefs-cards {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 1.25rem;
+        align-content: flex-start;
+        padding-left : 9%;
+    }
+    .chefs-cards .chef-card {
+        width: 44%;
+    }
+
+        /* === gallery === */
+    .gallery .photos {
+        height: 78rem;
+        width: 34%;
+        margin-left: 19%;
+        justify-content: center;
+    }
+    .photos .pizza {
+        order: 1;
+    }
+    .photos .fried {
+        order: 6;
+    }
+    .photos .omelette {
+        order: 4;
+    }
+    .photos .kofta {
+        order: 7;
+    }
+    .photos .burger {
+        order: 2;
+    }
+    .photos .pizza-slices {
+        order: 3;
+    }
+    .photos .steak {
+        order: 5;
+    }
+
+
+        /* === contact === */
+    .contact .container-1 {
+        max-width: 720px;
+    }
+    .contact .data {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contact .data .data-item {
+        width: 48.5%;
+        height: 6rem;
+    }
+
+
+        /* === footer === */
+    footer .container-1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 2% 0;
+        width: 720px;
+    }
+    footer .about-me {
+        width: 47%;
+    }
+    footer .duscription {
+        order: 6;
+        width: 100%;
+    }
+    footer .ather-details {
+        width: 47%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .nav-bar .container {
+        gap: 19%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+
+        /* ==== Heder ==== */
+    .heder .container {
+        flex-direction: row;
+        justify-content: center !important;
+    }
+    .heder .lift-heder {
+        align-items: flex-start;
+        text-align: left;
+        margin-left: 1%;
+        width: 40%;
+    }
+    .heder .lift-heder p {
+        margin: 20px ;
+        margin-left: 0px;
+        width: 80%;
+    }
+    .heder .lift-heder .bottons {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .heder .lift-heder .bottons .main-btn {
+        border-radius: 0px 30px 30px;
+    }
+    .heder .right-heder img {
+        width: 90% !important;
+        margin: 0;
+    }
+
+
+        /* === Chefs === */
+    .chefs-cards {
+        justify-content: center;
+        padding-left: 20px;
+    }
+    .chefs-cards .chef-card {
+        width: 30%;
+    }
+
+
+    /* ==== galare ==== */ 
+    .gallery .photos{
+        height: 62.8125rem;
+        width: 90%;
+        margin: auto;
+    }
+    .gallery .photos .pictur {  
+        width: calc(calc(100% - .01rem * 2) / 3);
+        margin: 0;
+    }
+    .photos .pizza {
+        order: 1;
+    }
+    .photos .fried {
+        order: 6;
+    }
+    .photos .omelette {
+        order: 4;
+    }
+    .photos .kofta {
+        order: 7;
+    }
+    .photos .burger {
+        order: 5;
+    }
+    .photos .pizza-slices {
+        order: 2;
+    }
+    .photos .steak {
+        order: 3;
+    }
+
+
+        /* === contact === */
+    .contact .container-1 {
+        max-width: 100%;
+    }
+    .contact form .two-input input {
+        width: 49%;
+    }
+
+
+        /* === footer === */
+    footer .container-1 {
+        flex-direction: row;
+        padding: 20px 0% ;
+        width: 960px;
+        gap: 3rem;
+    }
+    footer .about-me {
+        width: 50%;
+    }
+    footer .duscription {
+        flex-grow: 7;
+    }
+    footer .duscription {
+        width: 80%;  
+    }
+    footer .duscription .div-2 {
+        flex-direction: row;
+    }
+    footer .ather-details {
+        width: 45%;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    .heder .right-heder img{
+        width: 80%;
+    }
+
+
+    .gallery .photos {
+        height: 71.8625rem;
+    }
+
+
+        /* === footer === */
+    footer .container-1 {
+        width: 1320px;
+    }
+    footer .about-me {
+        width: 25%;
+    }
+    footer .duscription {
+        flex-grow: 0;
+        width: 44%;  
+        order: 0;
+    }
+    footer .duscription {
+    }
+    footer .duscription .div-2 {
+        flex-direction: row;
+    }
+    footer .ather-details {
+        width: 23%;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+
+    .nav-bar .container {
+        gap: 420px;
+    }
+    .container-1 {
+        width: 1400px;
+    }
+}
